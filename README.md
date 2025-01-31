@@ -9,6 +9,7 @@ A simple and user-friendly ATM application built using Flutter. The backend oper
 - **Funds Transfer:** Transfer money between accounts seamlessly.
 - **Deposit & Withdrawal:** Easily deposit and withdraw funds.
 - **PIN Management:** Change your PIN securely.
+- I made this for my OOP college project, and the UI is very basic. I plan to work on improving the UI in the future.
 
 ## Screenshots
 
