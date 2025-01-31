@@ -1,16 +1,31 @@
-# atm_oops
+# Basic ATM App
 
-A new Flutter project.
+A simple and user-friendly ATM application built using Flutter. The backend operations are handled in Java through `MainActivity.java`.
+
+## Features
+
+- **User Authentication:** Secure login and registration functionality.
+- **Account Management:** View account balances and transaction history.
+- **Funds Transfer:** Transfer money between accounts seamlessly.
+- **Deposit & Withdrawal:** Easily deposit and withdraw funds.
+- **PIN Management:** Change your PIN securely.
+
+## Screenshots
+
+![Ui Screen](screenshots/login.png)
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To get a local copy up and running, follow these simple steps.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Java Development Kit (JDK): [Install JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone the repo:
+   ```sh
+   git clone https://github.com/Ranojitdas/Basic-Atm-app.git
