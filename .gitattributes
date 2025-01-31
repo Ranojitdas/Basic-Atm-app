@@ -1,0 +1,14 @@
+# Dart for Flutter files
+*.dart linguist-language=Dart
+
+# Android Java files
+*.java linguist-language=Java
+
+# iOS Swift files
+*.swift linguist-language=Swift
+
+# Ignore build directories and config files
+build/** linguist-vendored
+ios/Pods/** linguist-vendored
+.dart_tool/** linguist-vendored
+ 
