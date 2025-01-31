@@ -7,6 +7,10 @@
 # iOS Swift files
 *.swift linguist-language=Swift
 
+# C++ files
+*.cpp linguist-language=C++
+*.h linguist-language=C++
+
 # Ignore build directories and config files
 build/** linguist-vendored
 ios/Pods/** linguist-vendored
