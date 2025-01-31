@@ -14,6 +14,9 @@ A simple and user-friendly ATM application built using Flutter. The backend oper
 ## Screenshots
 
 ![Ui Screen](screenshots/login.png)
+![Ui Screen](screenshots/login.png)
+![Ui Screen](screenshots/login.png)
+![Ui Screen](screenshots/login.png)
 
 
 ## Getting Started
