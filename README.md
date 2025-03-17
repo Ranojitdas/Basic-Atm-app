@@ -58,13 +58,4 @@ This project helped me:
 - Gain hands-on experience with UI design in Flutter.
 - Implement both **Material** and **Cupertino** UI components.
 
-## 📜 License
-
-This project is open-source under the [MIT License](LICENSE).
-
----
-
-🔗 **Connect with Me:**\
-[LinkedIn](https://www.linkedin.com/in/your-profile) | [GitHub](https://github.com/Ranojitdas) | [Twitter](https://twitter.com/yourhandle)
-
 Happy Coding! 🎉
