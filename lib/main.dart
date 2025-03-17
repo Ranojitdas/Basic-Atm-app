@@ -10,7 +10,6 @@ class ATMApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'ATM App',
-      theme: ThemeData(primarySwatch: Colors.blue),
       home: ATMHomePage(),
       debugShowCheckedModeBanner: false,
     );
@@ -74,24 +73,37 @@ class _ATMHomePageState extends State<ATMHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('ATM App')),
-      body: Padding(
-        padding: const EdgeInsets.all(16.0),
+      appBar: AppBar(title: Text('ATM App'),
+      backgroundColor: Colors.lightBlueAccent,),
+      body: Container(
+        height: double.infinity,
+        padding: EdgeInsets.all(16),
+        decoration: BoxDecoration(
+          image: DecorationImage(image:
+          AssetImage('assets/a.jpg'),
+            fit: BoxFit.cover,
+
+          )
+        ),
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              TextField(controller: accountNumberController, decoration: InputDecoration(labelText: 'Account Number')),
-              TextField(controller: pinController, decoration: InputDecoration(labelText: 'PIN'), obscureText: true),
-              TextField(controller: amountController, decoration: InputDecoration(labelText: 'Amount'), keyboardType: TextInputType.number),
-              TextField(controller: newPinController, decoration: InputDecoration(labelText: 'New PIN'), obscureText: true),
+              SizedBox(height: 12,),
+              TextField(controller: accountNumberController, decoration: InputDecoration(labelText: 'Account Number',border: OutlineInputBorder())),
+              SizedBox(height: 8,),
+              TextField(controller: pinController, decoration: InputDecoration(labelText: 'PIN',border:OutlineInputBorder()), obscureText: true),
+              SizedBox(height: 8,),
+              TextField(controller: amountController, decoration: InputDecoration(labelText: 'Amount',border: OutlineInputBorder()), keyboardType: TextInputType.number),
+              SizedBox(height: 8,),
+              TextField(controller: newPinController, decoration: InputDecoration(labelText: 'New PIN',border: OutlineInputBorder()), obscureText: true),
+              SizedBox(height: 30),
+              ElevatedButton(onPressed: checkBalance, child: Text('Check Balance',style: TextStyle(fontSize: 17),)),
+              ElevatedButton(onPressed: () => performOperation('deposit'), child: Text('Deposit',style: TextStyle(fontSize: 17,color: Colors.green)),),
+              ElevatedButton(onPressed: () => performOperation('withdraw'), child: Text('Withdraw',style: TextStyle(fontSize: 17,color: Colors.red))),
+              ElevatedButton(onPressed: () => performOperation('changePin', newPin: newPinController.text), child: Text('Change PIN',style: TextStyle(fontSize: 17))),
               SizedBox(height: 20),
-              ElevatedButton(onPressed: checkBalance, child: Text('Check Balance')),
-              ElevatedButton(onPressed: () => performOperation('deposit'), child: Text('Deposit')),
-              ElevatedButton(onPressed: () => performOperation('withdraw'), child: Text('Withdraw')),
-              ElevatedButton(onPressed: () => performOperation('changePin', newPin: newPinController.text), child: Text('Change PIN')),
-              SizedBox(height: 20),
-              Text(resultMessage, style: TextStyle(fontSize: 16, color: Colors.blue)),
+              Text(resultMessage, style: TextStyle(fontSize: 20, color: Colors.black54,fontWeight: FontWeight.w800)),
             ],
           ),
         ),
