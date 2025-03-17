@@ -9,16 +9,17 @@ A simple and user-friendly ATM application built using Flutter. The backend oper
 - 💸 **Funds Transfer:** Transfer money between accounts seamlessly.
 - 💰 **Deposit & Withdrawal:** Easily deposit and withdraw funds.
 - 🔐 **PIN Management:** Change your PIN securely.
-- 🎓 I made this for my OOP college project, and the UI is very basic. I plan to work on improving the UI in the future.
 
 ## 📸 Screenshots
 
-<div style="display: flex; flex-wrap: wrap;">
-  <img src="p1.png" alt="Ui Screen" style="width: 24%; margin-right: 3%;">
-  <img src="p2.png" alt="Ui Screen" style="width: 24%;">
-  <img src="p3.png" alt="Ui Screen" style="width: 24%; margin-right: 3%; margin-top: 10px;">
-  <img src="p4.png" alt="Ui Screen" style="width: 24%; margin-top: 10px;">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <img src="atm app image 2.jpg" alt="UI Screen" style="width: 24%;">
+  <img src="atm app image 4.jpg" alt="UI Screen" style="width: 24%;">
+  <img src="atm app image 5.jpg" alt="UI Screen" style="width: 24%;">
+  <img src="atm app image 6.jpg" alt="UI Screen" style="width: 24%;">
 </div>
+
+<p style="text-align: center; font-size: 14px; color: gray;"><i>Initial balance was 500</i></p>
 
 ## 🛠️ Getting Started
 
@@ -31,6 +32,30 @@ To get a local copy up and running, follow these simple steps.
 
 ### 📦 Installation
 
-1. Clone the repo:
+1. Clone the repository:
    ```sh
    git clone https://github.com/Ranojitdas/Basic-Atm-app.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd Basic-Atm-app
+   ```
+3. Install dependencies:
+   ```sh
+   flutter pub get
+   ```
+4. Run the app:
+   ```sh
+   flutter run
+   ```
+
+## 📚 Learning Experience
+
+This project helped me:
+
+- Understand the basics of Flutter widgets.
+- Learn about state management.
+- Gain hands-on experience with UI design in Flutter.
+- Implement both **Material** and **Cupertino** UI components.
+
+Happy Coding! 🎉
