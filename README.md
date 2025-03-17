@@ -16,7 +16,7 @@ A simple and user-friendly ATM application built using Flutter. The backend oper
   <img src="atm app image 2.jpg" alt="UI Screen" style="width: 24%;">
   <img src="atm app image 4.jpg" alt="UI Screen" style="width: 24%;">
   <img src="atm app image 5.jpg" alt="UI Screen" style="width: 24%;">
-  <img src="atm_app_image_6.jpg" alt="UI Screen" style="width: 24%;">
+  <img src="atm app image 6.jpg" alt="UI Screen" style="width: 24%;">
 </div>
 
 <p style="text-align: center; font-size: 14px; color: gray;"><i>Initial balance was 500</i></p>
