@@ -1,4 +1,4 @@
-# 🚀 Basic Banking App
+# 🚀 Basic ATM App
 
 A simple and user-friendly ATM application built using Flutter. The backend operations are handled in Java through `MainActivity.java`. This project was created for an Object-Oriented Programming (OOP) college assignment. The UI is currently very basic, and I plan to work on improving it in the future.
 
